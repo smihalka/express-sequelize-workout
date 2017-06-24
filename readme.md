@@ -1,4 +1,41 @@
+#SHAYNES README SO NOT READ YOU
+ *installs*
+ git init npm init npm install with pacakges --save
+ #npm install bootstrap
+ #npm install nodemon
+ In JSON Edit 'start:production': 'node theServerFilename (likely index.js or app.js)',
+ 'start:dev': 'nodemon -e html,css,js theServerFilename',
+ 'start': 'npm run start:dev'
+ #install pg pg-hstore sequelize@3 get v 3
+ express.static
+ npm install body-parser --save
+ #version 3 Broski
+ npm install sequelize@3 pg pg-hstore --save
+ #createdb somename
+ #DOCS
+ *express* +   http://expressjs.com/en/api.html
+ +   https://github.com/expressjs/body-parser
+ *sequelize docs*
+ +  http://sequelize.readthedocs.io/en/v3/
+ #Model Defines it
+ + http://sequelize.readthedocs.io/en/v3/docs/models-definition/
+ *DATA TYPES*
+ + http://sequelize.readthedocs.io/en/v3/docs/models-definition/#data-types
+ #Validations allow null N stuff
+ + http://sequelize.readthedocs.io/en/v3/docs/models-definition/#validations
+ #getters-setters getterMethods setterMethods
+ + http://sequelize.readthedocs.io/en/v3/docs/models-definition/#getters-setters
+ *Hooks*
+ + http://sequelize.readthedocs.io/en/v3/docs/hooks/
+ #instanceMethods (for the instance (var/const)), classMethods (for the class (model)),
+ #Associations belongsTo hasOne
+ + http://sequelize.readthedocs.io/en/v3/docs/associations/
+ bluebird Promises are a Bitch
+ + http://bluebirdjs.com/docs/api/promise.all.html
 
+
+
+#PLAN
 Start by
 1) setting up app
   put in body-parser __json___ craps
@@ -26,39 +63,3 @@ Lets make a reggie and charlie app
 Lets have it upload images and display them based on number of likes
 these are images of reggie and charlie
 there will be two users, reggie and charlie
-
-OK
-
-
-> We're living the future so
-> the present is our past.
-rea
-
-http://sequelize.readthedocs.io/en/v3/
-#Creating a db instance with new Sequelize and a connection string
-snippet
-#Creating models with db.define(modelname, fields, options)
-http://sequelize.readthedocs.io/en/v3/docs/models-definition/
-snippet
-*Specifying schema fields (attributes)*
-http://sequelize.readthedocs.io/en/v3/docs/models-definition/#data-types
-*Specifying attribute types, e.g. Sequelize.STRING
-Specifying attribute validations, e.g. allowNull
-http://sequelize.readthedocs.io/en/v3/docs/models-definition/#validations
-Specifying attribute defaultValues*
-
-Specifying model options
-#Getters & Setters (aka virtuals)
-http://sequelize.readthedocs.io/en/v3/docs/models-definition/#getters-setters
-Hooks, e.g. beforeValidate
-Class methods
-Instance methods
-this value in options
-getters: the instance
-hooks: the model (instance is 1st arg of the hook func)
-Instance methods: instance
-Class methods: class
-Associating models, e.g. hasOne, belongsTo, etc.
-Which model has the foreignKey
-Which Sequelize model is given new methods
-Synchronizing models with db.sync() -- what does the option force: true do?
