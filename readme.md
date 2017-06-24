@@ -1,3 +1,39 @@
+
+Start by
+1) setting up app
+  put in body-parser __json___ craps
+  put in static routs ___dirname___, public
+  app(routes.....
+    require the app express
+    )
+  nunjuks (views)
+2) setting up basic route - route in index.js - set up a different route per page - make three....
+3) create models - just a two table thing, with a many to many thing
+  use each
+    hooks
+    instanceMethods
+    classMethods
+    getterMethods
+  also belongsTo
+  hasMany - lets make sure this shit happens ok? two different ways
+4) nunjuks
+    views are sweet
+    set up index.html - start with layout.html - maybe add in that  bootstrap business?
+5) scss - make sure you use that - last thing though ok? stay away from CSS and HTML until all the routes are figured
+
+overall
+Lets make a reggie and charlie app
+Lets have it upload images and display them based on number of likes
+these are images of reggie and charlie
+there will be two users, reggie and charlie
+
+OK
+
+
+> We're living the future so
+> the present is our past.
+rea
+
 http://sequelize.readthedocs.io/en/v3/
 #Creating a db instance with new Sequelize and a connection string
 snippet

@@ -1,0 +1,25 @@
+{
+  "name": "express-sequelize-workout",
+  "version": "1.0.0",
+  "description": "Charlie Reggie Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smihalka/express-sequelize-workout.git"
+  },
+  "author": "Mix Master Shayne",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smihalka/express-sequelize-workout/issues"
+  },
+  "homepage": "https://github.com/smihalka/express-sequelize-workout#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "sequelize": "^3.*",
+    "volleyball": "^1.4.1"
+  }
+}
